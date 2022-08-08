@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Linux
+Navegador
+Terminal
+Trybe
+Loucura
