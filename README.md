@@ -14,5 +14,5 @@ Contém todas as atividades desenvolvidas por __[mim, Lucas Souza](https://www.l
 
 ##### Bloco 2: [Git, GitHub e Internet]
 - [X] 2.1 - Git & GitHub - O que é e para que serve
-- [] 2.2 - Git & GitHub - Entendendo os comandos
+- [X] 2.2 - Git & GitHub - Entendendo os comandos
 - [] 2.3 - Internet - Entendendo como ela funciona
