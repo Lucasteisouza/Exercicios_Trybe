@@ -6,7 +6,7 @@ Contém todas as atividades desenvolvidas por __[mim, Lucas Souza](https://www.l
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Bloco 1: [Unix, Bash e Shell Script]
+##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/Lucasteisouza/Exercicios_Trybe/tree/master/Modulo%201%20-%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco1_Unix_e_Bash/unix_teste)
 - [X] 1.3 - Fundamentos do Desenvolvimento Web
 - [X] 1.3 - Introdução - Unix & Shell
 - [X] 1.3 - Unix & Bash - Parte 1
