@@ -12,7 +12,14 @@ Contém todas as atividades desenvolvidas por __[mim, Lucas Souza](https://www.l
 - [X] 1.3 - Unix & Bash - Parte 1
 - [X] 1.4 - Unix & Bash - Parte 2
 
-##### Bloco 2: [Git, GitHub e Internet](https://github.com/Lucasteisouza/Exercicios_Trybe/tree/master/Modulo%201%20-%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco2_Git_Github_e_Internet) :hourglass_flowing_sand:
+##### Bloco 2: [Git, GitHub e Internet](https://github.com/Lucasteisouza/Exercicios_Trybe/tree/master/Modulo%201%20-%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco2_Git_Github_e_Internet) :white_check_mark:
 - [X] 2.1 - Git & GitHub - O que é e para que serve
 - [X] 2.2 - Git & GitHub - Entendendo os comandos
-- [] 2.3 - Internet - Entendendo como ela funciona
+- [X] 2.3 - Internet - Entendendo como ela funciona
+
+##### Bloco 3: [Introdução à HTLM e CSS]( ):hourglass_flowing_sand:
+- [ ] 3.1 - Introdução - HTML & CSS
+- [ ] 3.2 - HTML & CSS - Primeiros passos em CSS
+- [ ] 3.3 - HTML & CSS - Seletores e posicionamento
+- [ ] 3.4 - HTML Semântico
+- [ ] 3.5 - Projeto - Lessons Learned
