@@ -17,8 +17,8 @@ Contém todas as atividades desenvolvidas por __[mim, Lucas Souza](https://www.l
 - [X] 2.2 - Git & GitHub - Entendendo os comandos
 - [X] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: [Introdução à HTLM e CSS]( ):hourglass_flowing_sand:
-- [ ] 3.1 - Introdução - HTML & CSS
+##### Bloco 3: [Introdução à HTLM e CSS](https://github.com/Lucasteisouza/Exercicios_Trybe/tree/master/Modulo%201%20-%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco3_Introdu%C3%A7%C3%A3o_%C3%A0_HTML_e_CSS):hourglass_flowing_sand:
+- [X] 3.1 - Introdução - HTML & CSS
 - [ ] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [ ] 3.3 - HTML & CSS - Seletores e posicionamento
 - [ ] 3.4 - HTML Semântico
