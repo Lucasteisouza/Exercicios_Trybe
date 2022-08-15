@@ -1,0 +1,24 @@
+div:hover{
+    border: 5px solid black;
+}
+div:nth-of-type(1){
+    background-color: red;
+
+}
+div:nth-of-type(2){
+background-color: aqua;
+}
+div:nth-of-type(3){
+background-color: greenyellow;
+height: 50px;
+}
+div:nth-of-type(4){
+background-color: orange;
+}
+
+h3:nth-last-of-type(odd){
+    font-style: italic;
+}
+div:nth-last-child(1){
+    text-decoration: underline;
+}
