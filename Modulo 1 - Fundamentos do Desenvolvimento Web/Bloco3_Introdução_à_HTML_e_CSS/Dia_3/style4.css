@@ -15,10 +15,6 @@ height: 50px;
 div:nth-of-type(4){
 background-color: orange;
 }
-
-h3:nth-last-of-type(odd){
+div:nth-of-type(odd){
     font-style: italic;
-}
-div:nth-last-child(1){
-    text-decoration: underline;
 }
