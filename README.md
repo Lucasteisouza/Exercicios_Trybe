@@ -24,7 +24,7 @@ Contém todas as atividades desenvolvidas por __[mim, Lucas Souza](https://www.l
 - [X] 3.4 - HTML Semântico
 - [X] 3.5 - Projeto - Lessons Learned
 
-##### Bloco 4: [Introdução à JavaScript e Lógica de Programação]:hourglass_flowing_sand:
+##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/Lucasteisouza/Exercicios_Trybe/tree/master/Modulo%201%20-%20Fundamentos%20do%20Desenvolvimento%20Web/Bloco4_introdu%C3%A7%C3%A3o_%C3%A0_JavaScript_e_L%C3%B3gica_de_Programa%C3%A7%C3%A3o):hourglass_flowing_sand:
 - [X] 4.1 - Introdução - JavaScript
 - [X] 4.1 - JavaScript - Primeiros passos
 - [X] 4.2 - JavaScript - Array e loop For
