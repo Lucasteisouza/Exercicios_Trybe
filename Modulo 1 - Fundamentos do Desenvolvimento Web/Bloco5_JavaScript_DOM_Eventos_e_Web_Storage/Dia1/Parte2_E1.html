@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class='paragraphs' id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class='paragraphs' id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.fontSize = '50px';
+      const pageTitle = document.getElementById('page-title');
+      pageTitle.innerText = 'Fury Road'
+      let tester = document.getElementsByClassName('paragraphs');
+      tester[0].style.color ='blue'
+      let subs = document.getElementsByTagName('h4');
+      subs[0].style.color = 'gold'
+
+    </script>
+  </body>
+</html>
