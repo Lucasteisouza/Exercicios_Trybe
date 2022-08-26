@@ -66,7 +66,7 @@
         // console.log(element, someClass, parent)
       }
       
-      addElement('h1','',theBody);
+      addElement('h1','title',theBody);
       addElement('main', 'main-content', theBody);
       const main = document.querySelector('main');
       addElement('section', 'center-content', main);
@@ -79,14 +79,21 @@
       const leftSection = document.querySelector('.left-content');
       addElement('img', 'small-image', leftSection)
       const img1 = document.querySelector('.small-image');
-      img1.src= 'https://picsum.photos/200'
+      img1.src= 'https://picsum.photos/200';
       const rightSection = document.querySelector('.right-content')
-      addElement('ul', '', rightSection)
+      addElement('ul', '', rightSection);
       const ul1 = document.querySelector('ul');
-      function ilAdder(numberOfIls){
+      ul1.innerHTML = '<il>Um</il><il>Dois</il><il>Tres</il><il>Quatro</il><il>Cinco</il><il>Seis</il><il>Sete</il><il>Oito</il><il>Nove</il><il>Dez</il>';
+      addElement('h3', 'description', main);
+      addElement('h3', 'description', main);
+      addElement('h3', 'description', main);
+      main.removeChild(document.querySelector('.left-content'));
+      rightSection.style.marginRight = 'auto';
+      firstSection.parentElement.style.backgroundColor= 'green'
+      ul1.removeChild(ul1.lastChild)
+      ul1.removeChild(ul1.lastChild)
 
 
-      }
 
 
     </script>
