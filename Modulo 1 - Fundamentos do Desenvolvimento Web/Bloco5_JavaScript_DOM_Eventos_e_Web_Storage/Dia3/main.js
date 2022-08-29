@@ -32,17 +32,38 @@ function techAdder(evento){
   }
 }
 
-
-
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
 
+let inputer = document.getElementsByTagName('input');
+
+let tech = document.getElementsByClassName('tech');
+
+inputer[0].addEventListener('change', changer);
+
+function changer(){
+  tech[0].innerText = inputer[0].value
+}
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 // 4.1. Que tal redirecionar para seu portfólio?
+const spotrybefy = document.getElementById('my-spotrybefy');
 
+spotrybefy.addEventListener('dblclick', reDirecter);
+
+function reDirecter(){
+  window.location.href = 'https://app.betrybe.com/course';
+
+}
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
+
+spotrybefy.addEventListener ('mouseover', colorChanger)
+
+function colorChanger(event){
+  event.target.style.backgroundColor= 'red'
+
+}
 
 // Segue abaixo um exemplo do uso de event.target:
 
