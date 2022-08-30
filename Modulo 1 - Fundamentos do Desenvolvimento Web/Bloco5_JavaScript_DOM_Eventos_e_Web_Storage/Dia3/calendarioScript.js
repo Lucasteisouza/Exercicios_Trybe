@@ -105,6 +105,7 @@ function colorToTask(cor){
 colorToTask('red')
 
 const task = document.getElementsByClassName('task');
+
 for(let index =0 ; index < task.length; index += 1){
     task[index].addEventListener('click', selectTask);
 }
@@ -116,3 +117,20 @@ function selectTask(event){
         event.target.className = 'task'
     }
 }    
+
+function taskDay(){
+
+const days = document.getElementsByClassName('day');
+for(index=0; index<days.length; index += 1){
+    days[index].addEventListener ('click', taskColor)
+}
+}
+function taskColor(event){
+    let activeTask = document.getElementsByClassName('task-selected')
+    if(activeTask[0].style.backgroundColor === event.target.style.color){
+        event.target.style.color = 'rgb(119,119,119)'
+    }else{
+    event.target.style.color = activeTask[0].style.backgroundColor;
+    }    
+}
+taskDay();
