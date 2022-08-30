@@ -82,3 +82,37 @@ function eventAdder(){
 }
 
 eventAdder();
+
+function toDoList(string){
+    const myTasks = document.querySelector('.my-tasks');
+    const span = document.createElement('span');
+    const br = document.createElement('br');
+    span.innerText=string
+    myTasks.appendChild(span);
+ 
+}
+
+toDoList('cozinhar');
+
+function colorToTask(cor){
+    const myTasks = document.querySelector('.my-tasks');
+    const div = document.createElement('div');
+    div.className = 'task';
+    div.style.backgroundColor = cor;
+    myTasks.appendChild(div)
+
+}
+colorToTask('red')
+
+const task = document.getElementsByClassName('task');
+for(let index =0 ; index < task.length; index += 1){
+    task[index].addEventListener('click', selectTask);
+}
+
+function selectTask(event){
+    if(event.target.className === 'task'){
+    event.target.className = 'task-selected'
+    } else{
+        event.target.className = 'task'
+    }
+}    
