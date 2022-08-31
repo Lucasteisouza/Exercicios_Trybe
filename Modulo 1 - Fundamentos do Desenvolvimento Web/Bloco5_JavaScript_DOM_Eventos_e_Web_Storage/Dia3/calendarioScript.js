@@ -134,3 +134,21 @@ function taskColor(event){
     }    
 }
 taskDay();
+
+const commitmentsButton = document.getElementById('btn-add');
+commitmentsButton.addEventListener('click', addsCommitment)
+const commitInput = document.getElementById('task-input');
+commitInput.addEventListener('keypress', (e)=>{
+    if(e.key==='Enter'){
+        addsCommitment();
+    }
+})
+
+
+function addsCommitment(){
+    const commitInput = document.getElementById('task-input');
+    let commitmentListItem = document.createElement('li');
+    const commitList = document.querySelector('.task-list')
+    commitmentListItem.innerText = commitInput.value
+    commitList.appendChild(commitmentListItem)
+}
