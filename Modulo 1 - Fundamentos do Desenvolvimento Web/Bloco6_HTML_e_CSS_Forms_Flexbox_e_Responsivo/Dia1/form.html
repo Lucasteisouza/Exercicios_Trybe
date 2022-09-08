@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Trybe Trip</title>
+</head>
+<body>
+  <header>
+    <h1>Promoção Trybe Trip</h1>
+  </header>
+  <section>
+    <form action="">
+        <label for="name" >Nome completo:
+          <input type="text" id="name" maxlength="40" minlength="10">
+        </label>
+        <br>
+        <label for="input-email">E-mail:
+          <input type="email" id="input-email" minlength="10" maxlength="50">
+        </label>
+        <br>
+        <p>Destino preferido</p>
+        <label for="cid">
+          <input type="radio" name="options" id="cid">Cidade
+        </label>
+        <label for="camp">
+          <input type="radio" name="options" id="camp">Campo
+        </label>
+        <label for="prai">
+          <input type="radio" name="options" id="prai">Praia
+        </label>
+        <label for="mont">
+          <input type="radio" name="options" id="mont">Montanha
+        </label>
+        <br>
+        <br>
+        <label for="text-box">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+          <br>
+          <textarea name="answer" id="text-box" cols="30" rows="10" maxlength="500"></textarea>
+        </label>
+        <br>
+        <label for="date">Qual a melhora data para realizar a viagem?
+          <input type="date" name="date" id="date">
+        </label>
+        <br>
+        <label for="terms1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+          <input type="checkbox" name="terms1" id="term1">
+        </label>
+        <br>
+        <label for="terms2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+          <input type="checkbox" name="term2" id="terms2" required>
+        </label>
+        <br>
+        <button type="submit" id="submit">Enviar</button>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
