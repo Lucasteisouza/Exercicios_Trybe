@@ -63,8 +63,8 @@ Contém todas as atividades desenvolvidas por __[mim, Lucas Souza](https://www.l
 - [X] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [X] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
 - [X] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
-- [X] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [X] 8.5 - Projeto - Zoo functions
+- [ ] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [ ] 8.5 - Projeto - Zoo functions
 
 ##### Bloco 9: [JavaScript Assíncrono e Promises]:hourglass_flowing_sand:
 - [ ] 9.1 - JavaScript Assíncrono e Callbacks
