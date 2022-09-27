@@ -88,4 +88,4 @@ const fantasyOrFictionAuthors = books.filter((element) => element.genre === 'Fan
 
 fantasyOrFictionAuthors.sort((a, b) => a.author.name > b.author.name ? 1 : -1)
 
-console.log(fantasyOrFictionAuthors)
+// console.log(fantasyOrFictionAuthors)
